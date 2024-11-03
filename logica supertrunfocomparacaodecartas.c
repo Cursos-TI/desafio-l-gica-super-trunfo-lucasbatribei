@@ -55,13 +55,12 @@ int main(){
      printf("densidade populacional: %f - PIB per Capita: %f", densidadepopulacional1,pibpercapita1);
      printf("densidade populacional2: %f - PIB per Capita2: %f", densidadepopulacional2,pibpercapita2);
 
-     if (area1>=area2)
+     if (area1>area2)
      {
         printf("carta 1 venceu");
-
      }
-     else (area1<=area2);
-     {
+     else {
         printf("carta 2 venceu");
-     }
+      } 
+    
 }
